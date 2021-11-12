@@ -7,7 +7,7 @@ register_google(key = "AIzaSyAinMZGtkgpmpXIYJguj5K08Ja0sBv6cr4")
 ui <- fluidPage(
                 titlePanel("Kernal Density Home Range of a Specific Sparrow"),
                 sliderInput(inputId = "h",
-                            label = "Kernal Density (h)",
+                            label = "Kernal Width (h)",
                             min = 0.00005,
                             max = 0.001,
                             value = 0),
